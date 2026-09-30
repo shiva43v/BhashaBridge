@@ -1,0 +1,3 @@
+pipecat-ai[livekit,sarvam]==1.12.*
+livekit-api>=1.0
+aiohttp>=3.9
