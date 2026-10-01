@@ -54,7 +54,7 @@ export default function JoinForm() {
         <section className="person you" aria-labelledby="you-h">
           <h2 id="you-h">You</h2>
           <label className="field"><span>Your name</span>
-            <input className="text-input" value={a.displayName} maxLength={60} placeholder="Ravi" onChange={(e) => setA({ ...a, displayName: e.target.value })} />
+            <input className="text-input" value={a.displayName} maxLength={60} placeholder="Shiva" onChange={(e) => setA({ ...a, displayName: e.target.value })} />
           </label>
           <LangTiles label="I speak" value={a.spokenLanguage} onChange={setSpokenA} />
           <LangTiles label="I want to hear" value={a.listeningLanguage} onChange={(c) => { setTouchedA(true); setA({ ...a, listeningLanguage: c }); }} />
@@ -63,7 +63,7 @@ export default function JoinForm() {
         <section className="person them" aria-labelledby="them-h">
           <h2 id="them-h">The person you're calling</h2>
           <label className="field"><span>Their name</span>
-            <input className="text-input" value={b.displayName} maxLength={60} placeholder="Suresh" onChange={(e) => setB({ ...b, displayName: e.target.value })} />
+            <input className="text-input" value={b.displayName} maxLength={60} placeholder="Srishanth" onChange={(e) => setB({ ...b, displayName: e.target.value })} />
           </label>
           <LangTiles label="They speak" value={b.spokenLanguage} onChange={setSpokenB} />
           <LangTiles label="They want to hear" value={b.listeningLanguage} onChange={(c) => { setTouchedB(true); setB({ ...b, listeningLanguage: c }); }} />
