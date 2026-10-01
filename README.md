@@ -147,3 +147,5 @@ PROJECT_SPECIFICATION.md
 - [Pipecat LiveKit transport example](https://github.com/pipecat-ai/pipecat/blob/main/examples/transports/transports-livekit.py)
 - [Sarvam API documentation](https://docs.sarvam.ai/)
 - [LiveKit documentation](https://docs.livekit.io/)
+
+<img width="1879" height="857" alt="Screenshot 2026-10-01 172411" src="https://github.com/user-attachments/assets/084aa34d-82f3-47d5-8e8c-b38f82135c7b" />
